@@ -471,12 +471,6 @@ tr_metainfoParseImpl (const tr_session  * session,
     i = 0;
   inf->dateCreated = i;
 
-  /* private */
-  if (!tr_variantDictFindInt (infoDict, TR_KEY_private, &i))
-    if (!tr_variantDictFindInt (meta, TR_KEY_private, &i))
-      i = 0;
-  inf->isPrivate = i != 0;
-
   /* piece length */
   if (!isMagnet)
     {
