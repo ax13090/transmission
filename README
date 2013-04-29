@@ -9,6 +9,8 @@ ABOUT
     * A web UI for remote controlling any of the above
 
   Visit http://www.transmissionbt.com/ for more information.
+  This particular clone is an attempt to disable the "Private Torrent"
+  feature implemented by the Transmission developpers.
 
 BUILDING
 
